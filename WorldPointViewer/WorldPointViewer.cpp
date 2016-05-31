@@ -451,7 +451,7 @@ void moveCameraByMouseMove(int x, int y, int last_x, int last_y) {
     int dx = x - last_x;
     int dy = y - last_y;
 
-    float PIX_TO_DEG = 0.01f;
+    float PIX_TO_DEG = 0.04f;
     auto pos = g_camera.getPosition();
 
     auto alt = pos.length() - EARTH_EQUITORIAL_RADIUS;
