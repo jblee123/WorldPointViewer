@@ -2,3 +2,5 @@ Debug/
 *.sdf
 *.opensdf
 *.suo
+
+*_points.txt
